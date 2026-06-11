@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static %}
 
 
 {% block content %}
@@ -19,7 +20,7 @@
                     <a href="#">Menu</a>
                     <a href="#">A propos</a>
                     <a href="#">Réservation</a>
-                    <a href="#">Contacy</a>
+                    <a href="#">Contact</a>
                 </nav>
             </div>
             <div class="more">
@@ -70,5 +71,35 @@
             </div>
         </div>
 
+    </section>
+    <section class="cathegories">
+        <h1>Nos cathégories populaires</h1>
+        <div class="cath">
+            <div class="exple">
+                <img src="{% static "images/p2.jpeg" %} " alt="moi">
+                <h2>pizza</h2>
+                <p>12 plats</p>
+            </div>
+            <div class="exple">
+                <img src="{% static "images/p3.jpeg" %}" alt="moi">
+                <h2>Burger</h2>
+                <p>10 plats</p>
+            </div>
+            <div class="exple">
+                <img src="{% static "images/p4.jpeg" %}" alt="moi">
+                <h2>Plats</h2>
+                <p>14 plats</p>
+            </div>
+            <div class="exple">
+                <img src="{% static "images/p5.jpeg" %}" alt="moi">
+                <h2>Boissons</h2>
+                <p>8 plats</p>
+            </div>
+            <div class="exple">
+                <img src="{% static "images/p6.jpeg" %}" alt="moi">
+                <h2>Desserts</h2>
+                <p>9 plats</p>
+            </div>
+        </div>
     </section>
 {% endblock %}

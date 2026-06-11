@@ -2,7 +2,7 @@
     --orange:orange;
 }
 body{
-    padding: 5px 10px;
+    padding: 10px 20px;
 }
 .header{
     background-image: url('../images/p1.jpeg');
@@ -10,8 +10,9 @@ body{
     background-size: cover;
     background-position: center;
     color: white;
-    height: 60vh;
+    height: 63vh;
     /* margin-bottom: 50px; */
+    border-radius: 20px;
     
 }
 button{
@@ -26,6 +27,14 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 0 50px;
+    
+}
+header h1{
+    margin: 0;
+}
+header p{
+    margin: 0;
+    font-size: 10px;
 }
 
 
@@ -92,8 +101,39 @@ header button:hover{
     color: black;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 8px;
-    background-color: white;
+    background-color: #f1ebeb;
     margin: 0 5%;
+    margin-top: 30px;
+}
+.grid .aspect{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.cathegories h1{
+    text-align: center;
+}
+.cathegories .cath{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    height: 10px;
+    padding: 0 70px;
+    
+    
+}
+.cathegories .exple{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #f1ebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+.cathegories .exple h2,.cathegories .exple p{
+    margin: 0;
 }
