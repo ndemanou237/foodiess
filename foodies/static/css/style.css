@@ -1,0 +1,99 @@
+:root{
+    --orange:orange;
+}
+body{
+    padding: 5px 10px;
+}
+.header{
+    background-image: url('../images/p1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 60vh;
+    /* margin-bottom: 50px; */
+    
+}
+button{
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+
+header nav{
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+header nav a:hover{
+    color: var(--orange);
+    border-bottom: 2px solid var(--orange);
+}
+header button{
+    color: white;
+    background-color: var(--orange);
+    padding: 17px;
+    border: none;
+    border-radius: 50px;
+}
+header button:hover{
+    cursor: pointer;
+}
+.btn button:first-child{
+    color: white;
+    background-color: var(--orange);
+    padding: 11px;
+    border: none;
+    border-radius: 50px;  
+}
+.btn button:last-child{
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 11px;
+}
+.presentation {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 34%;
+}
+.presentation span{
+    color: var(--orange);
+    /* margin-bottom: 50px; */
+}
+.presentation h1{
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0;
+}
+.presentation .btn{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.grid{
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 1px solid red;
+    border-radius: 8px;
+    background-color: white;
+    margin: 0 5%;
+}
