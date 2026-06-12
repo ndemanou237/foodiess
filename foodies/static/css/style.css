@@ -114,6 +114,7 @@ header button:hover{
 }
 .cathegories h1{
     text-align: center;
+    font-size: 2.5rem;
 }
 .cathegories .cath{
     display: grid;
@@ -136,4 +137,98 @@ header button:hover{
 }
 .cathegories .exple h2,.cathegories .exple p{
     margin: 0;
+}
+.plats{
+    margin-top: 20%
+}
+.plats h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.plats .offre{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 30px;
+}
+.plats .contenu{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.plats img{
+    width: 100%;
+    border-radius: 20px;
+}
+.contenu .decalage{
+    padding: 0 15px;
+}
+.contenu h2{
+    margin: 0;
+}
+.contenu .etoile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 40px; */
+}
+.contenu .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 0; */
+    margin-bottom: 10px;
+
+}
+.contenu button{
+    background-color: var(--orange);
+    color: white;
+    font-weight: bold;
+    border: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+.reservation{
+    background-image: url('../images/p1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 60px  90px;
+
+}
+.reservation h1{
+    font-size: 2.4rem;
+    margin: 0;
+}
+.reservation button{
+    color: white;
+    font-weight: bold;
+    background-color: var(--orange);
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+.temoignage{
+    padding: 0 40px;
+}
+.temoignage h1{
+    
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+.temoignage .temoins{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.temoignage .temoin{
+    border-radius: 10px;
+    border: 1px solid black;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    text-align: center;
 }
